@@ -1,0 +1,50 @@
+.navbar {
+  height: 44px;
+  overflow: hidden;
+  font-family: arial, sans-serif;
+  font-size: 13px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.left {
+  display: flex;
+  align-items: center;
+}
+
+.right {
+  display: flex;
+  align-items: center;
+}
+
+.navbar img {
+  margin-left: 10px;
+  margin-right: 10px;
+  opacity: 0.75;
+}
+
+.navbar img:hover {
+  opacity: 1;
+  cursor: pointer;
+}
+
+.navbar button {
+  margin-left: 20px;
+  margin-right: 10px;
+  color: white;
+  background-color: #4285f4;
+}
+
+a {
+    display: inline-block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+a:hover {
+    text-decoration: underline;
+  }
+
+  
